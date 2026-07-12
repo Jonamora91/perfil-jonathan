@@ -1,0 +1,12 @@
+name: perfil-jonathan
+
+services:
+  perfil-jonathan:
+    image: ghcr.io/jonamora91/perfil-jonathan:latest
+    container_name: perfil-jonathan
+    restart: unless-stopped
+    ports:
+      - "8100:80"
+    labels:
+      # Auto-update via the manejo-facturas Watchtower running on the host
+      - "com.centurylinklabs.watchtower.enable=true"

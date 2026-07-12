@@ -1,0 +1,203 @@
+{
+  "basics": {
+    "name": "Jonathan Mora Esquivel",
+    "initials": "JM",
+    "role": {
+      "es": "Desarrollador de Software · Identidad & Acceso · .NET + AWS · IA",
+      "en": "Software Developer · Identity & Access · .NET + AWS · AI"
+    },
+    "shortRole": {
+      "es": "Desarrollador de Software · Identidad & Acceso",
+      "en": "Software Developer · Identity & Access"
+    },
+    "email": "jonamora91@hotmail.com",
+    "phone": "+506 8315 9570",
+    "location": "San Pedro, San José, Costa Rica",
+    "region": "Costa Rica",
+    "profiles": [
+      { "network": "GitHub", "url": "https://github.com/Jonamora91" }
+    ],
+    "summary": {
+      "es": "Desarrollador de software con más de 12 años construyendo sistemas empresariales de principio a fin: desde la arquitectura y las bases de datos hasta las APIs y el front end. Hoy me especializo en identidad y control de acceso —SSO, federación y aprovisionamiento de usuarios (Okta, Microsoft Entra, Auth0, OIDC/SAML, SCIM)— sobre .NET Core y AWS. Hace poco terminé un Máster en Inteligencia Artificial y disfruto aplicarlo, desde verificación de documentos con IA hasta herramientas modernas de desarrollo. Doy el 110 % en cada reto y siempre estoy aprendiendo.",
+      "en": "Software developer with 12+ years building enterprise systems end to end — from architecture and databases to APIs and front ends. Today I focus on identity and access management — SSO, federation and user provisioning (Okta, Microsoft Entra, Auth0, OIDC/SAML, SCIM) — on .NET Core and AWS. I recently completed an MSc in Artificial Intelligence and enjoy putting it to work, from AI-assisted document verification to modern AI developer tooling. I give 110% to every problem and I never stop learning."
+    },
+    "metaDescription": {
+      "es": "Currículum de Jonathan Mora Esquivel, desarrollador de software con +12 años en identidad y control de acceso (Okta, Entra, Auth0, SCIM), .NET Core y AWS. San José, Costa Rica.",
+      "en": "Résumé of Jonathan Mora Esquivel, software developer with 12+ years in identity and access management (Okta, Entra, Auth0, SCIM), .NET Core and AWS. San José, Costa Rica."
+    },
+    "highlights": {
+      "exp": { "es": "+12 años de experiencia", "en": "12+ years of experience" },
+      "focus": { "es": "Identidad, SSO & federación", "en": "Identity, SSO & federation" },
+      "edu": { "es": "Máster en Inteligencia Artificial", "en": "MSc in Artificial Intelligence" }
+    }
+  },
+  "languages": [
+    { "name": { "es": "Español", "en": "Spanish" }, "level": { "es": "Nativo", "en": "Native" }, "code": "es", "pct": 100 },
+    { "name": { "es": "Inglés", "en": "English" }, "level": { "es": "Avanzado", "en": "Advanced" }, "code": "en", "pct": 85 }
+  ],
+  "strengths": {
+    "es": ["Liderazgo", "Trabajo en equipo", "Capacidad de análisis", "Adaptabilidad", "Proactividad", "Responsabilidad", "Aprendizaje rápido", "Resolución de problemas"],
+    "en": ["Leadership", "Teamwork", "Analytical thinking", "Adaptability", "Proactivity", "Responsibility", "Fast learner", "Problem solving"]
+  },
+  "stack": [
+    { "group": { "es": "Backend & lenguajes", "en": "Backend & languages" }, "items": ["C#", ".NET Core", "ASP.NET MVC", "Python", "Node.js", "JavaScript", "TypeScript"] },
+    { "group": { "es": "Frontend", "en": "Frontend" }, "items": ["Angular", "AngularJS", "React", "IONIC", "HTML5", "CSS3", "Bootstrap"] },
+    { "group": { "es": "Identidad & Auth", "en": "Identity & Auth" }, "items": ["Okta", "Microsoft Entra", "Auth0", "Azure B2C", "OIDC", "SAML", "SCIM", "JWT"] },
+    { "group": { "es": "Cloud & DevOps", "en": "Cloud & DevOps" }, "items": ["AWS Lambda", "Step Functions", "DynamoDB", "Cognito", "SES", "ECS", "Terraform", "Docker", "Podman", "Azure DevOps", "GitHub"] },
+    { "group": { "es": "Bases de datos", "en": "Databases" }, "items": ["SQL Server", "MySQL", "Oracle", "DB2", "DynamoDB", "SQLite"] },
+    { "group": { "es": "Testing & IA", "en": "Testing & AI" }, "items": ["Playwright", "Unit testing", "ChatGPT API", "Claude Code", "Cursor", "Codex"] }
+  ],
+  "work": [
+    {
+      "company": "RMS · Moody's",
+      "companyName": "Moody's (RMS)",
+      "position": { "es": "Desarrollador de Software", "en": "Software Developer" },
+      "start": "2022-07",
+      "end": null,
+      "when": { "es": "Jul 2022 — Actualidad", "en": "Jul 2022 — Present" },
+      "highlights": {
+        "es": [
+          "Construcción de un servicio de autenticación centralizado que gestiona usuarios federados y no federados para todas las aplicaciones de Moody's.",
+          "Diseño e implementación de endpoints SCIM propios para aprovisionamiento de usuarios, grupos y roles.",
+          "Integración de Okta y Azure B2C vía OIDC y SAML; migración de aplicaciones existentes a la nueva plataforma de identidad.",
+          "Desarrollo de web APIs en .NET Core sobre AWS (Lambda, Step Functions, DynamoDB, Cognito, SES, ECS) y SQL Server.",
+          "Automatización de pruebas con Playwright y Azure DevOps; infraestructura como código con Terraform."
+        ],
+        "en": [
+          "Built a centralized authentication service handling federated and non-federated users across all of Moody's applications.",
+          "Designed and implemented in-house SCIM endpoints for user, group and role provisioning.",
+          "Integrated Okta and Azure B2C via OIDC and SAML; migrated existing apps to the new identity platform.",
+          "Developed .NET Core web APIs backed by AWS (Lambda, Step Functions, DynamoDB, Cognito, SES, ECS) and SQL Server.",
+          "Automated testing with Playwright and Azure DevOps; infrastructure as code with Terraform."
+        ]
+      }
+    },
+    {
+      "company": "MBC Developers",
+      "companyName": "MBC Developers",
+      "position": { "es": "Jefe de Desarrollo de Sistemas", "en": "Head of Systems Development" },
+      "start": "2013-10",
+      "end": "2023-04",
+      "when": { "es": "Oct 2013 — Abr 2023", "en": "Oct 2013 — Apr 2023" },
+      "highlights": {
+        "es": [
+          "Liderazgo del equipo de desarrollo: planificación, arquitectura, reclutamiento, mentoría y resolución de conflictos.",
+          "Levantamiento de requerimientos directamente con el negocio y responsabilidad sobre el diseño de las soluciones.",
+          "Entrega de aplicaciones web, Windows y móviles (ASP.NET MVC, Web API, C#, VB, Node.js, Angular/AngularJS, IONIC).",
+          "Gestión de bases de datos sobre Oracle, SQL Server, DB2 y SQLite.",
+          "Dirección de proyectos con Scrum, Extreme Programming, Kanban y Waterfall según cada engagement."
+        ],
+        "en": [
+          "Led the development team: planning, architecture, recruiting, mentoring and conflict resolution.",
+          "Gathered requirements directly with business stakeholders and owned solution design.",
+          "Delivered web, Windows and mobile apps (ASP.NET MVC, Web API, C#, VB, Node.js, Angular/AngularJS, IONIC).",
+          "Managed databases across Oracle, SQL Server, DB2 and SQLite.",
+          "Ran projects with Scrum, Extreme Programming, Kanban and Waterfall as each engagement required."
+        ]
+      }
+    }
+  ],
+  "projects": [
+    {
+      "name": { "es": "Moody's SSO v2", "en": "Moody's SSO v2" },
+      "period": "2024", "ongoing": true,
+      "description": {
+        "es": "Plataforma de single sign-on empresarial: gestión de usuarios, grupos y roles para todas las apps externas de Moody's, con federación Okta/Entra y aprovisionamiento SCIM.",
+        "en": "Enterprise single sign-on platform: user, group and role management for all external Moody's apps, with Okta/Entra federation and SCIM provisioning."
+      },
+      "tags": [".NET Core", "Okta", "Azure B2C", "OIDC", "SAML", "SCIM", "DynamoDB"]
+    },
+    {
+      "name": { "es": "Service Management Layer", "en": "Service Management Layer" },
+      "period": "2022", "ongoing": true,
+      "description": {
+        "es": "Web APIs que orquestan funciones AWS Lambda y Step Functions desde el AWS SDK de .NET.",
+        "en": "Web APIs orchestrating AWS Lambda and Step Functions from the .NET AWS SDK."
+      },
+      "tags": [".NET Core", "AWS Lambda", "Step Functions", "DynamoDB", "GitHub"]
+    },
+    {
+      "name": { "es": "Asset Management AI", "en": "Asset Management AI" },
+      "period": "2023 — 2025", "ongoing": false,
+      "description": {
+        "es": "Verificación con IA de facturas en PDF contra registros de Excel usando la API de ChatGPT.",
+        "en": "AI verification of PDF invoices against Excel records using the ChatGPT API."
+      },
+      "tags": ["Python", "ChatGPT API", "React", "Node.js"]
+    },
+    {
+      "name": { "es": "Implementación de Auth0", "en": "Auth0 Implementation" },
+      "period": "2025", "ongoing": true,
+      "description": {
+        "es": "Servicio de autenticación ligero para apps internas que requieren configuración mínima.",
+        "en": "Lightweight authentication service for internal apps that need minimal setup."
+      },
+      "tags": ["Auth0", "Node.js", "Playwright", "Terraform", "ECS"]
+    },
+    {
+      "name": { "es": "AMT — Transferencia de inventario", "en": "AMT — Inventory transfer" },
+      "period": "2022 — 2023", "ongoing": false,
+      "description": {
+        "es": "Plataforma para gestionar el movimiento de inventario entre bodegas de distintos países.",
+        "en": "Platform to manage inventory movement between warehouses across different countries."
+      },
+      "tags": [".NET Core", "React", "Node.js"]
+    },
+    {
+      "name": { "es": "Luminis", "en": "Luminis" },
+      "period": "2023 — 2025", "ongoing": false,
+      "description": {
+        "es": "Software de gestión de incidencias para manejar errores en procesos de negocio.",
+        "en": "Issue-tracking software to handle errors in business processes."
+      },
+      "tags": [".NET Core", "Angular", "Node.js"]
+    },
+    {
+      "name": { "es": "Evertec — SASI / SISAS", "en": "Evertec — SASI / SISAS" },
+      "period": "2017 — 2021", "ongoing": false,
+      "description": {
+        "es": "Plataforma empresarial de larga duración para un procesador financiero regional: web + móvil, control con TFS.",
+        "en": "Long-running enterprise platform for a regional financial processor: web + mobile, TFS version control."
+      },
+      "tags": ["ASP.NET MVC", "IONIC", "SQL Server", "TFS"]
+    },
+    {
+      "name": { "es": "Tiendas virtuales Credomatic", "en": "Credomatic virtual stores" },
+      "period": "2014", "ongoing": false,
+      "description": {
+        "es": "Tiendas en línea para comercios afiliados con integración de pago con tarjeta (tasa 0, mini-cuotas).",
+        "en": "Online stores for affiliated merchants with card payment integration (rate 0, mini-fees)."
+      },
+      "tags": ["ASP.NET MVC", "Kentico CMS", "SQL Server"]
+    },
+    {
+      "name": { "es": "Servicio de huella TSE", "en": "TSE fingerprint service" },
+      "period": "2017", "ongoing": false,
+      "description": {
+        "es": "Captura de huella biométrica integrada con servicios SOAP del gobierno mediante un servicio de Windows.",
+        "en": "Biometric fingerprint capture integrated with government SOAP services via a Windows service."
+      },
+      "tags": ["ASP.NET", "SOAP", "Windows Service"]
+    }
+  ],
+  "education": [
+    {
+      "year": "2024",
+      "studyType": { "es": "Máster en Inteligencia Artificial", "en": "MSc in Artificial Intelligence" },
+      "institution": "VIU — Universidad Internacional de Valencia",
+      "area": { "es": "VIU · Valencia, España", "en": "VIU · Valencia, Spain" }
+    },
+    {
+      "year": "2018",
+      "studyType": { "es": "Máster en TI, énfasis en Gestión de Proyectos", "en": "MSc in IT, Project Management focus" },
+      "institution": "ULACIT",
+      "area": { "es": "ULACIT · Costa Rica", "en": "ULACIT · Costa Rica" }
+    },
+    {
+      "year": "2014",
+      "studyType": { "es": "Bachillerato en Sistemas de Computación", "en": "B.Sc. in Computer Systems" },
+      "institution": "Universidad Americana",
+      "area": { "es": "Universidad Americana · Costa Rica", "en": "Universidad Americana · Costa Rica" }
+    }
+  ]
+}
