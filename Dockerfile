@@ -4,7 +4,6 @@ WORKDIR /app
 COPY package.json ./
 COPY data ./data
 COPY src ./src
-COPY site-static ./site-static
 COPY build.mjs ./
 ARG SITE_ORIGIN=https://perfil-jonathan.morochoa.com
 ENV SITE_ORIGIN=$SITE_ORIGIN
