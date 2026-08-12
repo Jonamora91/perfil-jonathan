@@ -4,7 +4,7 @@
 //   /sitemap.xml, /robots.txt, /favicon.svg, /og.svg
 // No runtime dependencies; runs on plain Node >= 18.
 
-import { readFileSync, writeFileSync, mkdirSync, rmSync } from "node:fs";
+import { cpSync, existsSync, readFileSync, writeFileSync, mkdirSync, rmSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import { dirname, join } from "node:path";
 import { renderPage } from "./src/template.mjs";
@@ -19,6 +19,12 @@ const js = readFileSync(join(__dirname, "src/app.js"), "utf8");
 const dist = join(__dirname, "dist");
 rmSync(dist, { recursive: true, force: true });
 mkdirSync(join(dist, "en"), { recursive: true });
+
+const staticDir = join(__dirname, "site-static");
+if (existsSync(staticDir)) {
+  cpSync(staticDir, dist, { recursive: true });
+  console.log("  copied site-static/");
+}
 
 const write = (rel, content) => {
   const p = join(dist, rel);
