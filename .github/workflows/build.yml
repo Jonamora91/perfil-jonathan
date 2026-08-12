@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - "data/**"
+      - "site-static/**"
       - "src/**"
       - "build.mjs"
       - "package.json"
